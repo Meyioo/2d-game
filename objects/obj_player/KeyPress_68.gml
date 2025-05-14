@@ -1,0 +1,1 @@
+sprite_index = goku_down_melee_1;

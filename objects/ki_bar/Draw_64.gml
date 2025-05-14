@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_ki_bar, 1, 8, 128, max(0, global.ki/global.ki_max),1, 0, c_white, 1);

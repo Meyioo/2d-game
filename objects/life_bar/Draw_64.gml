@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_life_bar, 1, 8, 64, max(0, global.hp/global.hp_max),1, 0, c_white, 1);
