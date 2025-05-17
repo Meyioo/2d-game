@@ -3,11 +3,7 @@ left_key = keyboard_check(vk_left);
 up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 
-
-if(global.hp < 0) {
-	global.hp = 0;
-}
-
-if (global.hp == 0) {
-	game_restart();
+switch(global.state) {
+	case PLAYER_STATE.FREE: Player_State_FREE();break;
+	case PLAYER_STATE.COMBAT: Player_State_COMBAT();break;
 }

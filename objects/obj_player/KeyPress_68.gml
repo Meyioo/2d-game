@@ -1,1 +1,1 @@
-sprite_index = goku_down_melee_1;
+global.state = PLAYER_STATE.COMBAT;
